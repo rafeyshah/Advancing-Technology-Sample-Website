@@ -1,0 +1,189 @@
+body{
+    font-size: 18px;
+}
+p{
+    line-height: 1.4;
+}
+.header{
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.headers{
+    background-image: url(/images/conference-hero.jpg);
+    width: auto;
+    min-height: 470px;
+    color:white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1,h2,th{
+    font-family: 'Roboto', sans-serif;
+}
+h3,h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.what{
+    background-color: #bdd5ea;
+    margin-top: -30px;
+    min-height: 230px;
+    padding-left: 30px;
+    padding-top: 15px;
+    border-bottom: 2px dashed cornflowerblue;
+}
+p,ul{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.imga{
+    width: 300px;
+    border-radius: 50%;
+    padding-bottom: 80px;
+}
+
+
+.img1{
+    float: left;
+    margin-right: 40px;
+}
+.img2{
+    float: right;
+    margin-left: 40px;
+}
+.img3{
+    float:left;
+    margin-right: 40px;
+}
+.margins{
+    margin: 50px 40px 200px 40px;
+}
+.margins h2,p{
+   padding-top: 20px; 
+}
+.seats{
+   margin-top: 200px;
+   padding: 50px 0px 50px 0px;
+    background-color: #bdd5ea;
+    border-top: 2px dashed blue;
+    border-bottom: 2px dashed blue;
+    margin:-7px;
+       
+}
+.table{
+    width: 70%;
+    text-align: center;
+   margin-left: 15%;
+    border-spacing: 7px;
+}
+tr{
+    height: 50px;
+}
+.tbutton{
+    color: white;
+    padding: 15px;
+    background-color: #fe5f55;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.tbutton:hover{
+    background-color: #a05f5b;
+    transition: 0.8s;
+}
+
+.trow{
+    background-color: white;
+}
+
+.thead{
+    background-color: #495867;
+    color: white;
+}
+
+.speaker{
+    display: inline;
+    
+    }
+.txt1{
+    width:550px;
+}
+.txt2{
+    width:550px;
+}
+.day1{
+    float: left;
+    margin-left: 90px;
+    padding-left: 20px;
+    border: 1px solid #e9e9e9;
+    border-right-width: 5px;
+    background-image: url('/images/swirl.png');
+}
+.day2{
+    float: right;
+    margin-right: 70px ;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    border: 1px solid #e9e9e9;
+    border-right-width: 5px;
+    background-image: url('/images/swirl.png');
+}
+.day1 h4{
+    text-align: center;
+}
+.day2 h4{
+    text-align: center;
+}
+.day1 img{
+    float: left;
+    margin-right: 50px;
+    width:150px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+.subday1{
+    clear: left;
+}
+.day2 img{
+    float: left;
+    margin-right: 50px;
+    width:150px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+.subday2{
+    clear:left;
+}
+
+.last{
+    clear: both;
+    background-color: #bdd5ea;
+    min-height: 200px;
+    padding: 50px 30px 30px 60px;
+    border-top: 1px dashed blue;
+    text-align: center;
+}
+.form{
+    border: 1px solid #e9e9e9;
+    border-right-width: 3px;
+    background-image: url(/images/swirl.png);
+    padding-top: 8px;
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+}
+.footers{
+    text-align: center;
+    color: white;
+    background-color: #495867;
+    padding: 18px
+}
+.center{
+    text-align: center;
+
+}
+#optionss{
+    background-color: #e9e9e9;
+    margin-bottom: 16px;
+}
