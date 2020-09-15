@@ -288,3 +288,27 @@ tr{
     }
 }
 
+.modal-hidden{
+    display: none;
+}
+.modal-shown{
+    display: block;
+}
+.modal-content{
+    width: 300px;
+    height: 168px;
+    background-color: #fe5f55;
+    position: absolute;
+    z-index: 1;
+    top: 456px;
+    left: 42%;
+    transform: translateX(-50px);
+}
+.far{
+    font-size: 20px;
+    position: relative;
+    margin-left: 93%;
+}
+span{
+    font-weight: bold;
+}

@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" 
     rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
      rel="stylesheet">
+     <script src="/app.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -24,10 +28,20 @@
     <h3>1st Annual Budding Conferrence</h3>
     <p>Orlando, FL - October 11,2019 </p>
 </header>
-    
+<div id="easter-egg-modal" class="modal-hidden">
+
+    <div class="modal-content">
+                <i class="far fa-window-close"></i>
+                <p style="color: azure;
+                margin-left: 27%;
+                padding-top: 8px;">Enter Your Code</p>
+                <input type="number" name="" id="funcEgg" style="margin-left: 20%;">
+            </div>
+        </div>
+
     <section class="center">
     <h2 style="margin-top:90px; margin-bottom: 50px;
-    font-size: 30px;">Get Your Tickets!</h2>
+    font-size: 30px;">Get y<span id="easter-egg">o</span>ur tickets!</h2>
     <form class="form" action="">
         <p style="font-size: 24px;"><b>Your Info</b></p>
         <input style=" height: 25px; margin-bottom: 8px;" placeholder="Enter Name" 
@@ -51,5 +65,7 @@
     <footer class="footers" style="margin-top: -1px;">
     <p>&copy; 2020</p>
     </footer>
+
+    
 </body>
 </html>
