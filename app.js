@@ -14,4 +14,7 @@ var x = setInterval(function()  {
     document.getElementById('Hours').textContent = hrs;
     document.getElementById('Mins').textContent = mins;
     document.getElementById('Sec').textContent = sec;
+    if(final == 0 ){
+        alert('CountDown Ended');
+    }
 },1000);
